@@ -9,7 +9,7 @@ export default function Hero() {
   const router = useRouter();
   
   return (
-    <div className="bg-[#faf7f2] pt-14">
+    <div className="bg-[#faf7f2] pt-14 ">
         <div className="h-screen flex justify-between items-center">
             <div>
                 <Image
