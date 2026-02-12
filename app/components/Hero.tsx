@@ -13,15 +13,19 @@ export default function Hero() {
     <div className="pt-14">
         <div className="min-h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
 
-  <Reveal>
-  <div className="relative h-[50vh] sm:h-screen w-full rounded-t-full overflow-hidden">
-    <Image
-      src="/Live a fulfilling life.webp"
-      alt="Flower"
-      fill
-      className="object-cover"
-      priority
-    />
+<Reveal>
+  <div className="flex items-center justify-center w-full">
+    <div className="relative rounded-t-full overflow-hidden 
+                    h-[55vh] sm:h-[90vh] 
+                    w-[65%] md:w-[60%]">
+      <Image
+        src="/Live a fulfilling life.webp"
+        alt="Flower"
+        fill
+        className="object-cover"
+        priority
+      />
+    </div>
   </div>
 </Reveal>
 
