@@ -4,6 +4,7 @@ import Specialities from "./components/Specialties";
 import About from "./components/About";
 import FAQ from "./components/FAQ";
 import ProfessionalBackground from "./components/ProfessionalBackground";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <FAQ />
       <ProfessionalBackground />
+      <Footer />
     </>
   );
 }
