@@ -11,31 +11,44 @@ export default function Hero() {
   
   return (
     <div className="pt-14">
-        <div className="h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
-            <Reveal>
-                <div className="md:h-screen flex flex-col items-center justify-center">
-                <Image
-                src="/Live a fulfilling life.webp"
-                alt="Flower"
-                width={500}
-                height={800}
-                className="max-w-full h-64 w-45 sm:h-auto sm:w-auto  rounded-t-full " 
-                />
-            </div>
-            </Reveal>
-            <Reveal>
-                <div className="md:h-screen w-full flex flex-col items-center justify-center">
-                <p className="flex justify-center items-center text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold  text-[#223614]">Live your life <br />in full bloom</p>
-                <p className=" flex justify-center items-center text-md sm:text-xl md:text-2xl mt-4 md:mt-10 text-[#223614]">Therapy for Adults in Minneapolis, MN.</p>
-                    <Link href="/contact">
-                    <button  className="hover:bg-[#223614] hover:text-white text-[#223614] transition-colors duration-1000  uppercase mt-6 sm:mt-8 md:mt-10 border mx-auto text-sm flex justify-center items-center px-7 sm:px-6 md:px-7 py-4 sm:py-3 md:py-3.5 cursor-pointer gap-2">connect with me <MdOutlineArrowRightAlt /> </button>
-                    </Link> 
-            </div>
-            </Reveal>
-        </div>
+        <div className="min-h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
+
+  <Reveal>
+  <div className="relative h-[50vh] sm:h-screen w-full rounded-t-full overflow-hidden">
+    <Image
+      src="/Live a fulfilling life.webp"
+      alt="Flower"
+      fill
+      className="object-cover"
+      priority
+    />
+  </div>
+</Reveal>
+
+
+  <Reveal>
+    <div className="w-full flex flex-col items-center justify-center py-16 sm:h-screen">
+      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
+        Live your life <br /> in full bloom
+      </p>
+
+      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+        Therapy for Adults in Minneapolis, MN.
+      </p>
+
+      <Link href="/contact">
+        <button className="hover:bg-[#223614] hover:text-white text-[#223614] transition-colors duration-700 uppercase mt-8 border text-sm flex justify-center items-center px-7 py-4 gap-2">
+          connect with me <MdOutlineArrowRightAlt />
+        </button>
+      </Link>
+    </div>
+  </Reveal>
+
+</div>
+
         
 
-            <div className="h-screen flex flex-col sm:flex-row bg-[#E5E0DA]">
+            <div className="min-h-screen sm:h-screen flex flex-col sm:flex-row bg-[#E5E0DA]">
 
         {/* TEXT SIDE */}
             <Reveal className="order-2 sm:order-1 w-full sm:w-1/2">
