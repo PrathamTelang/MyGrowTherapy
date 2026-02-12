@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "../components/Footer";
-import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Reveal from "../components/Reveal";
 
 const posts = [
