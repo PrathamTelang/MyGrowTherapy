@@ -10,8 +10,8 @@ export default function Hero() {
   const router = useRouter();
   
   return (
-    <div className="bg-[#faf7f2] pt-14 ">
-        <div className="h-screen grid sm:grid-cols-2">
+    <div className="pt-14 ">
+        <div className="h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
             <Reveal>
                 <div className="md:h-screen flex flex-col items-center justify-center">
                 <Image
@@ -34,6 +34,40 @@ export default function Hero() {
             </Reveal>
         </div>
         
+
+            <div className="h-screen flex flex-col sm:flex-row bg-[#E5E0DA]">
+
+  {/* TEXT SIDE */}
+  <Reveal className="order-2 sm:order-1 w-full sm:w-1/2">
+    <div className="h-full flex flex-col items-center justify-center p-10">
+      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614] text-center">
+        Live a fulfilling life.
+      </p>
+
+      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614] text-center">
+        Life can be challenging—especially when you're trying to balance your personal and professional life.
+      </p>
+
+      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614] text-center">
+        It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.
+      </p>
+    </div>
+  </Reveal>
+
+  {/* IMAGE SIDE */}
+  <Reveal className="order-1 sm:order-2 w-full sm:w-1/2">
+    <div className="relative h-64 sm:h-full w-full">
+      <Image
+        src="/Live a fulfilling life.webp"
+        alt="Flower"
+        fill
+        className="object-cover"
+      />
+    </div>
+  </Reveal>
+
+</div>
+
     </div>
   );
 }
