@@ -15,7 +15,7 @@ export default function Hero() {
             <Reveal>
                 <div className="md:h-screen flex flex-col items-center justify-center">
                 <Image
-                src="/hero.jpg"
+                src="/Live a fulfilling life.webp"
                 alt="Flower"
                 width={500}
                 height={800}
