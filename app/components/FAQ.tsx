@@ -31,19 +31,22 @@ export default function FAQ() {
 
   return (
     <div className="bg-[#faf7f2] py-20 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-stretch gap-16">
+      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-stretch ">
 
-        <Reveal className="w-full lg:w-1/2 flex items-center justify-center">
-          <div className="relative h-[55vh] lg:h-[85vh] w-[85%] rounded-t-full overflow-hidden mt-10">
-            <Image
-              src="/Live a fulfilling life.webp"
-              alt="Frequently Asked Questions"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-        </Reveal>
+        <Reveal className="w-full lg:w-1/2">
+  <div className="flex w-full ">
+    <div className="relative h-[55vh] lg:h-[85vh] w-[85%] rounded-t-full overflow-hidden">
+      <Image
+        src="/Live a fulfilling life.webp"
+        alt="Frequently Asked Questions"
+        fill
+        className="object-cover"
+        priority
+      />
+    </div>
+  </div>
+</Reveal>
+
 
         <Reveal className="w-full lg:w-1/2 flex items-center">
           <div className="w-full">
