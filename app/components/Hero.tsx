@@ -39,19 +39,30 @@ export default function Hero() {
 
   {/* TEXT SIDE */}
   <Reveal className="order-2 sm:order-1 w-full sm:w-1/2">
-    <div className="h-full flex flex-col items-center justify-center p-10">
-      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614] text-center">
-        Live a fulfilling life.
-      </p>
+    <div className="h-full flex flex-col">
 
-      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614] text-center">
-        Life can be challenging—especially when you're trying to balance your personal and professional life.
-      </p>
+  <div className="flex-1 flex flex-col items-center justify-center p-10 text-center">
+    <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
+      Live a fulfilling life.
+    </p>
 
-      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614] text-center">
-        It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.
-      </p>
-    </div>
+    <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+      Life can be challenging—especially when you're trying to balance your personal and professional life.
+    </p>
+
+    <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+      It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.
+    </p>
+  </div>
+
+  <Link href="/contact" className="w-full">
+    <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 hover:bg-[#223614] hover:text-white transition-colors duration-700">
+      connect with me <MdOutlineArrowRightAlt />
+    </button>
+  </Link>
+
+</div>
+
   </Reveal>
 
   {/* IMAGE SIDE */}
