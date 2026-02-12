@@ -4,10 +4,12 @@ import About from "./components/About";
 import FAQ from "./components/FAQ";
 import ProfessionalBackground from "./components/ProfessionalBackground";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Hero />
       <Specialities />
       <About />
