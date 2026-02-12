@@ -39,7 +39,7 @@ export default function ProfessionalBackground() {
         <div className="max-w-4xl mx-auto">
 
           <Reveal>
-            <h2 className="text-4xl md:text-5xl font-semibold text-[#223614] text-center mb-16">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-[#223614] text-center mb-16">
               Professional Background
             </h2>
           </Reveal>
@@ -61,7 +61,7 @@ export default function ProfessionalBackground() {
                       aria-expanded={isExpanded}
                       className="w-full flex items-center justify-between text-left"
                     >
-                      <span className="text-lg md:text-2xl text-[#223614]">
+                      <span className="text-xl md:text-3xl text-[#223614]">
                         {item.title}
                       </span>
 
@@ -86,7 +86,7 @@ export default function ProfessionalBackground() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <p className="text-base md:text-lg leading-relaxed text-[#223614] pr-2">
+                        <p className="text-md sm:text-xl md:text-2xl leading-relaxed text-[#223614] pr-2">
                           {item.content}
                         </p>
                       </div>
@@ -111,7 +111,7 @@ export default function ProfessionalBackground() {
               Get started today.
             </h3>
 
-            <p className="text-base md:text-lg leading-relaxed max-w-xl mx-auto">
+            <p className="text-md md:text-lg leading-relaxed max-w-xl mx-auto">
               If you’re ready to make space for clarity, balance, and growth,
               this is a meaningful place to begin. Reach out to start a
               conversation and explore what support could look like for you.

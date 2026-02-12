@@ -15,7 +15,7 @@ function About() {
             Hi, I’m Lilac.
           </h2>
 
-          <p className="text-base sm:text-xl md:text-2xl mt-6 text-[#223614] leading-relaxed">
+          <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614] leading-relaxed">
             I'm committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we'll work together to navigate the challenges life throws your way.
           </p>
 

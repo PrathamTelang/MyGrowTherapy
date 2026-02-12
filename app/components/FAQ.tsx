@@ -48,7 +48,7 @@ export default function FAQ() {
         <Reveal className="w-full lg:w-1/2 flex items-center">
           <div className="w-full">
 
-            <h2 className="text-4xl md:text-5xl font-semibold text-[#223614] mb-12">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-[#223614] mb-12">
               Frequently Asked Questions
             </h2>
 
@@ -67,7 +67,7 @@ export default function FAQ() {
                       className="w-full flex items-center justify-between text-left"
                       aria-expanded={isActive}
                     >
-                      <span className="text-xl md:text-2xl text-[#223614]">
+                      <span className="text-xl md:text-3xl text-[#223614]">
                         {item.question}
                       </span>
 
@@ -92,7 +92,7 @@ export default function FAQ() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <p className="text-base md:text-lg text-[#223614] leading-relaxed">
+                        <p className="text-md sm:text-xl md:text-2xl text-[#223614] leading-relaxed">
                           {item.answer}
                         </p>
                       </div>
