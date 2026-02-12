@@ -30,7 +30,7 @@ function About() {
 
       {/* IMAGE SIDE */}
       <Reveal className="order-1 sm:order-2 w-full sm:w-1/3 flex items-center justify-center">
-  <div className="relative h-[55vh] sm:h-[90vh] w-[65%] md:w-[80%] rounded-t-full overflow-hidden">
+  <div className="relative h-[55vh] sm:h-[90vh] w-[65%] md:w-[80%] rounded-t-full overflow-hidden mt-10">
     <Image
       src="/Live a fulfilling life.webp"
       alt="Therapy and growth"

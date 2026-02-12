@@ -17,7 +17,7 @@ export default function Hero() {
   <div className="flex items-center justify-center w-full">
     <div className="relative rounded-t-full overflow-hidden 
                     h-[55vh] sm:h-[90vh] 
-                    w-[65%] md:w-[60%]">
+                    w-[65%] md:w-[60%] mt-10">
       <Image
         src="/Live a fulfilling life.webp"
         alt="Flower"
