@@ -67,10 +67,10 @@ export default function ProfessionalBackground() {
 
                       {/* Animated indicator */}
                       <div className="relative w-5 h-5 shrink-0 ml-6">
-                        <span className="absolute top-1/2 left-0 w-full h-[2px] bg-[#223614] -translate-y-1/2"></span>
+                        <span className="absolute top-1/2 left-0 w-full h-0.5 bg-[#223614] -translate-y-1/2"></span>
 
                         <span
-                          className={`absolute left-1/2 top-0 h-full w-[2px] bg-[#223614]
+                          className={`absolute left-1/2 top-0 h-full w-0.5 bg-[#223614]
                           -translate-x-1/2 transition-all duration-300
                           ${isExpanded ? "opacity-0 rotate-90" : ""}`}
                         />
