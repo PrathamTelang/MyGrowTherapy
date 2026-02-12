@@ -2,34 +2,62 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { MdOutlineArrowRightAlt } from 'react-icons/md'
+import Reveal from './Reveal'
 
 function Specialties() {
   return (
     <div>
-        <div className="h-screen flex justify-between items-center bg-[#C2BFCB]">
-            <div>
-                <Image
-          src="/hero.jpg"
-          alt="Flower"
-          width={500}
-          height={800}
-          className="max-w-full h-67.5 w-45 sm:h-auto  sm:w-auto  rounded-t-full " 
-          />
-            </div>
-            <div className="flex w-1/2  flex-col gap-6 sm:gap-8 md:gap-10 justify-center items-center ">
-        <div>
-        <p className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold  sm:tracking-wider text-center lg:text-left text-[#223614]">Live your life 
- <br/>
-        in full bloom</p>
-        <p className=" flex justify-center items-center text-md sm:text-xl md:text-2xl pt-10 text-[#223614]">Therapy for Adults in Minneapolis, MN.</p>
-            <Link href="/contact">
-            <button  className="hover:bg-[#223614] hover:text-white text-[#223614] transition-colors duration-1000  uppercase mt-6 sm:mt-8 md:mt-10 border mx-auto text-sm flex justify-center items-center px-7 sm:px-6 md:px-7 py-4 sm:py-3 md:py-3.5 cursor-pointer gap-2">connect with me <MdOutlineArrowRightAlt /> </button>
-            </Link>
-        </div>
-            
+         <div className="h-screen flex flex-col sm:flex-row bg-[#C2BFCB]">
         
+        {/* IMAGE SIDE */}
+  <Reveal className=" w-full sm:w-1/2">
+    <div className="relative h-64 sm:h-full w-full">
+      <Image
+        src="/Live a fulfilling life.webp"
+        alt="Flower"
+        fill
+        className="object-cover"
+      />
     </div>
-        </div>
+  </Reveal>
+
+
+        {/* TEXT SIDE */}
+            <Reveal className=" w-full sm:w-1/2">
+        <div className="h-full flex flex-col">
+
+     <div className="flex-1 flex flex-col  justify-center p-10 ">
+    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-[#223614]">
+      You don’t have to do this all alone.
+    </p>
+
+        <p className='text-md sm:text-xl md:text-2xl mt-6 text-[#223614]'>
+          If you are facing any of these, there’s hope:
+        </p>
+
+        <ul className="list-disc pl-5 flex flex-col gap-2 text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+          <li>Feeling emotionally drained or overwhelmed</li>
+          <li>Difficulty focusing or staying present</li>
+          <li>Ongoing stress or anxiety that won’t settle</li>
+          <li>Struggles in personal or professional relationships</li>
+          <li>A constant sense of pressure or self-doubt</li>
+        </ul>
+
+        <p className='text-md sm:text-xl md:text-2xl mt-6 text-[#223614]'>
+          Support can help you slow down, gain clarity, and build steadier ways
+          to navigate life’s challenges.
+        </p>
+  </div>
+
+  <Link href="/contact" className="w-full">
+    <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 hover:bg-[#223614] hover:text-white transition-colors duration-700">
+      connect with me <MdOutlineArrowRightAlt />
+    </button>
+  </Link>
+
+</div>
+  </Reveal>
+</div>
     </div>
   )
 }

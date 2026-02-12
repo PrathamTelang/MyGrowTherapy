@@ -10,7 +10,7 @@ export default function Hero() {
   const router = useRouter();
   
   return (
-    <div className="pt-14 ">
+    <div className="pt-14">
         <div className="h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
             <Reveal>
                 <div className="md:h-screen flex flex-col items-center justify-center">
@@ -37,12 +37,12 @@ export default function Hero() {
 
             <div className="h-screen flex flex-col sm:flex-row bg-[#E5E0DA]">
 
-  {/* TEXT SIDE */}
-  <Reveal className="order-2 sm:order-1 w-full sm:w-1/2">
-    <div className="h-full flex flex-col">
+        {/* TEXT SIDE */}
+            <Reveal className="order-2 sm:order-1 w-full sm:w-1/2">
+        <div className="h-full flex flex-col">
 
-  <div className="flex-1 flex flex-col items-center justify-center p-10 text-center">
-    <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
+     <div className="flex-1 flex flex-col  justify-center p-10 ">
+    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-[#223614]">
       Live a fulfilling life.
     </p>
 
@@ -76,7 +76,6 @@ export default function Hero() {
       />
     </div>
   </Reveal>
-
 </div>
 
     </div>
