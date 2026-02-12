@@ -12,11 +12,11 @@ function About() {
       <Reveal className="order-2 sm:order-1 w-full sm:w-1/2 flex items-center justify-center px-8 py-16 text-center sm:text-left">
         <div>
           <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-[#223614] leading-tight">
-            Live your life <br /> in full bloom
+            Hi, I’m Lilac.
           </h2>
 
           <p className="text-base sm:text-xl md:text-2xl mt-6 text-[#223614] leading-relaxed">
-            Therapy for Adults in Minneapolis, MN.
+            I'm committed to providing a safe and supportive environment where we can explore your thoughts, feelings, and behaviors. With empathy and guidance, we'll work together to navigate the challenges life throws your way.
           </p>
 
           <Link
