@@ -2,13 +2,17 @@ import React from 'react'
 import Connect from '../components/Connect'
 import Header from '../components/Header'
 import SocialAccordion from '../components/SocialAccordion'
+import BookAppointment from '../components/BookAppointment'
+import Footer from '../components/Footer'
 
 function page() {
   return (
     <div>
       <Header />
       <Connect />
+      <BookAppointment />
       <SocialAccordion />
+      <Footer />
     </div>
   )
 }
