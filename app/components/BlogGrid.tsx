@@ -13,6 +13,7 @@ export default function BlogGrid({ posts }: { posts: Post[] }) {
       <div className="max-w-6xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-20">
 
         {posts.map((post, index) => (
+          <Link href={`/blog/${index}`}> 
           <div key={index} className="space-y-6">
 
             <div className="relative w-full h-[320px] overflow-hidden">
@@ -30,17 +31,18 @@ export default function BlogGrid({ posts }: { posts: Post[] }) {
               {post.title}
             </h3>
 
-            <Link
-              href={`/blog/${index}`}
+            <div
               className="inline-block border-b border-[#223614] text-sm uppercase tracking-wide pb-1"
             >
               Read More
-            </Link>
+            </div>
 
           </div>
+          </Link>
         ))}
 
       </div>
+      
     </section>
   );
 }
