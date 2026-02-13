@@ -24,7 +24,7 @@ function BlogHero() {
 
 
   <Reveal>
-    <div className="w-full flex flex-col  justify-center py-16 sm:h-screen">
+    <div className="w-full flex flex-col  justify-center py-16 px-10 sm:h-screen ">
       <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
         The Lilac Blog
       </p>

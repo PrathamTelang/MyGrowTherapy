@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import SocialAccordion from '../components/SocialAccordion'
 import BookAppointment from '../components/BookAppointment'
 import Footer from '../components/Footer'
+import OfficeSection from '../components/OfficeSection'
 
 function page() {
   return (
@@ -11,6 +12,7 @@ function page() {
       <Header />
       <Connect />
       <BookAppointment />
+      <OfficeSection />
       <SocialAccordion />
       <Footer />
     </div>
