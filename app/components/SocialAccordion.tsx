@@ -13,7 +13,7 @@ const images = [
 ];
 
 export default function SocialAccordion() {
-  const [activeImage, setActiveImage] = useState<string | null>(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
     <section className="bg-[#F4EFEA] px-8 md:px-16 py-24">
@@ -27,8 +27,8 @@ export default function SocialAccordion() {
         {images.map((src, index) => (
           <motion.div
             key={index}
-            layoutId={src}
-            onClick={() => setActiveImage(src)}
+            layoutId={`social-${index}`}
+            onClick={() => setActiveIndex(index)}
             className="relative h-[300px] cursor-pointer overflow-hidden"
           >
             <Image
@@ -43,34 +43,31 @@ export default function SocialAccordion() {
 
       {/* FULLSCREEN MODAL */}
       <AnimatePresence>
-        {activeImage && (
+        {activeIndex !== null && (
           <>
-            {/* Overlay */}
             <motion.div
               className="fixed inset-0 bg-black/80 z-40"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              onClick={() => setActiveImage(null)}
+              onClick={() => setActiveIndex(null)}
             />
 
-            {/* Expanded Image */}
             <motion.div
-              layoutId={activeImage}
+              layoutId={`social-${activeIndex}`}
               className="fixed inset-0 flex items-center justify-center z-50 p-6"
             >
               <div className="relative w-full max-w-5xl h-[80vh]">
 
                 <Image
-                  src={activeImage}
+                  src={images[activeIndex]}
                   alt="Expanded"
                   fill
                   className="object-contain rounded-md"
                 />
 
-                {/* Close Button */}
                 <button
-                  onClick={() => setActiveImage(null)}
+                  onClick={() => setActiveIndex(null)}
                   className="absolute top-4 right-4 bg-white/90 backdrop-blur-md p-2 rounded-full shadow-lg hover:scale-110 transition"
                 >
                   <RxCross1 />
