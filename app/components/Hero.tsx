@@ -10,8 +10,8 @@ export default function Hero() {
   const router = useRouter();
   
   return (
-    <div className="pt-14">
-        <div className="min-h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
+    <div className="pt-14 bg-[#faf7f2]">
+        <div className="min-h-screen grid sm:grid-cols-2 ">
 
 <Reveal>
   <div className="flex items-center justify-center w-full">

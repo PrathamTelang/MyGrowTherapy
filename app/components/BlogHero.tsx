@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function BlogHero() {
   return (
-    <div className="min-h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
+    <div className="min-h-screen grid sm:grid-cols-2 bg-[#faf7f2] pt-14">
 
 <Reveal>
   <div className="flex items-center justify-center w-full">
