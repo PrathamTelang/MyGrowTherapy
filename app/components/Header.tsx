@@ -35,9 +35,11 @@ export default function Header() {
       `}
     >
       <div className="h-18 flex justify-between items-center md:px-20 px-6">
-        <h1 className="text-3xl md:text-4xl font-semibold text-[#223614]">
-          My Grow Therapy
-        </h1>
+        <Link href="/">
+          <h1 className="text-2xl md:text-3xl font-semibold text-[#223614]">
+            My Grow Therapy
+          </h1>
+        </Link>
 
         <div className="flex gap-8 text-lg md:text-2xl text-[#223614]">
           <Link
