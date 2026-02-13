@@ -1,0 +1,46 @@
+import React from 'react'
+import Reveal from './Reveal'
+import Image from 'next/image'
+
+function BlogHero() {
+  return (
+    <div className="min-h-screen grid sm:grid-cols-2 bg-[#faf7f2]">
+
+<Reveal>
+  <div className="flex items-center justify-center w-full">
+    <div className="relative rounded-t-full overflow-hidden 
+                    h-[55vh] sm:h-[90vh] 
+                    w-[65%] md:w-[60%] mt-10">
+      <Image
+        src="/Live a fulfilling life.webp"
+        alt="Flower"
+        fill
+        className="object-cover"
+        priority
+      />
+    </div>
+  </div>
+</Reveal>
+
+
+  <Reveal>
+    <div className="w-full flex flex-col  justify-center py-16 sm:h-screen">
+      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
+        The Lilac Blog
+      </p>
+
+      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+        My tiny corner of the internet where I talk about all things healing, heart, and wholeness. 
+      </p>
+
+      <p className="font-bold text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+        Glad you’re here.
+      </p>
+    </div>
+  </Reveal>
+
+</div>
+  )
+}
+
+export default BlogHero
