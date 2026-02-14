@@ -29,7 +29,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-[#FAF7F2]/90
+      className={`fixed top-0 left-0 w-full z-50 backdrop-blur-md 
         transition-transform duration-500 ease-in-out
         ${visible ? "translate-y-0" : "-translate-y-full"}
       `}
