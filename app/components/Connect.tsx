@@ -16,11 +16,7 @@ function Connect() {
     </p>
 
     <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-      Starting therapy is courageous.
-    </p>
-
-    <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-      Get in touch for questions, or to book a free 15-minute consultation.
+      Beginning therapy takes courage. If you have questions or would like to schedule a complimentary 15-minute consultation, I welcome you to reach out.
     </p>
   </div>
 
@@ -40,7 +36,7 @@ function Connect() {
 
     <Reveal className='w-full h-full sm:w-1/2 flex justify-center items-center'>
         <div className='bg-[#223614] w-[80%]  flex flex-col justify-center items-center text-center p-10 rounded-lg text-white text-xl leading-relaxed'>
-            PLEASE NOTE: If you opt to use a “Form Block” on your contact page this is not HIPAA-compliant. Squarespace stores data that is input into forms in the Marketing tab under Profiles. Instead, you can embed a HIPAA-compliant form, a link to your client portal, or simply put your email address.
+            Please note that email and contact forms are not intended for sharing detailed clinical information. For privacy and security, sensitive information can be discussed during your consultation.
         </div>
     </Reveal>
 

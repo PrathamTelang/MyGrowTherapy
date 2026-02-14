@@ -10,14 +10,12 @@ export default function BookAppointment() {
 
         {/* TITLE */}
         <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold leading-tight">
-          Book an appointment.
+          Schedule a Consultation
         </h2>
 
         {/* DESCRIPTION */}
         <p className="text-md sm:text-xl md:text-2xl mt-8 leading-relaxed max-w-3xl mx-auto">
-          If you're ready to begin, you can schedule your first session below.
-          Choose a time that works for you, and you’ll receive confirmation
-          details right away.
+          If you're ready to begin, I invite you to reach out to schedule an initial consultation. We’ll discuss what you’re looking for and determine whether working together feels like a good fit.
         </p>
 
       </div>
@@ -51,7 +49,7 @@ export default function BookAppointment() {
           href="/contact"
           className="inline-flex items-center justify-center gap-2 mt-6 border border-[#223614] px-7 py-4 uppercase text-sm transition-colors duration-500 hover:bg-[#223614] hover:text-white"
         >
-          Contact Instead
+          Contact Dr. Maya
         </Link>
       </div>
 

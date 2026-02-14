@@ -14,8 +14,7 @@ export default function OfficeSection() {
           </h2>
 
           <div className="space-y-4 text-lg md:text-xl leading-relaxed">
-            <p>123 Example Street</p>
-            <p>Minneapolis, MN</p>
+            <p>123th Street 45 W, Santa Monica, CA 90401</p>
           </div>
 
           <div className="pt-6">

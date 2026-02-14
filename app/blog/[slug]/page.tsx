@@ -1,3 +1,4 @@
+import Header from "@/app/components/Header";
 import { posts } from "@/lib/posts";
 import { notFound } from "next/navigation";
 
@@ -12,6 +13,8 @@ export default async function BlogPostPage({
   if (!post) return notFound();
 
   return (
+    <>
+    <Header />
     <article className="bg-[#F4EFEA] px-8 md:px-16 py-28 text-[#223614]">
       <div className="max-w-3xl mx-auto">
 
@@ -27,5 +30,6 @@ export default async function BlogPostPage({
 
       </div>
     </article>
+    </>
   );
 }

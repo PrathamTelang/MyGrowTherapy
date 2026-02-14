@@ -1,11 +1,11 @@
-import buildingSelfTrust from "@/content/building-self-trust";
-import understandingAnxiety from "@/content/understanding-anxiety";
-import overwhelmed from "@/content/when-you-feel-overwhelmed";
-import navigatingBurnout from "@/content/navigating-burnout";
+import anxietyNervousSystem from "@/content/understanding-anxiety-and-the-nervous-system";
+import burnoutHighAchievers from "@/content/burnout-in-high-achieving-adults";
+import traumaInBody from "@/content/how-trauma-lives-in-the-body";
+import rebuildingSelfTrust from "@/content/rebuilding-self-trust-after-chronic-stress";
 
 export const posts = [
-  buildingSelfTrust,
-  understandingAnxiety,
-  overwhelmed,
-  navigatingBurnout,
+  anxietyNervousSystem,
+  burnoutHighAchievers,
+  traumaInBody,
+  rebuildingSelfTrust,
 ];

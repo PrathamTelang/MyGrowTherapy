@@ -2,60 +2,74 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
-  const [showHeader, setShowHeader] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const pathname = usePathname();
+
+  const [visible, setVisible] = useState(true);
+  const [prevScroll, setPrevScroll] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
+      const currentScroll = window.scrollY;
 
-      if (currentScrollY > lastScrollY) {
-        // scrolling down
-        setShowHeader(false);
+      if (currentScroll > prevScroll && currentScroll > 80) {
+        setVisible(false);
       } else {
-        // scrolling up
-        setShowHeader(true);
+        setVisible(true);
       }
 
-      setLastScrollY(currentScrollY);
+      setPrevScroll(currentScroll);
     };
 
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]);
+  }, [prevScroll]);
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 backdrop-blur-sm 
+      className={`fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-[#FAF7F2]/90
         transition-transform duration-500 ease-in-out
-        ${showHeader ? "translate-y-0" : "-translate-y-full"}
+        ${visible ? "translate-y-0" : "-translate-y-full"}
       `}
     >
-      <div className="h-18 flex justify-between items-center md:px-20 px-6">
-        <Link href="/">
-          <h1 className="text-2xl md:text-3xl font-semibold text-[#223614]">
-            My Grow Therapy
-          </h1>
+      <div className="h-20 flex justify-between items-center md:px-20 px-6 text-[#223614]">
+
+        {/* Logo */}
+        <Link href="/" className="leading-tight">
+          <div className="text-2xl md:text-3xl font-semibold">
+            Dr. Maya Reynolds, PsyD
+          </div>
+          <div className="text-sm md:text-base opacity-70">
+            Licensed Clinical Psychologist
+          </div>
         </Link>
 
-        <div className="flex gap-8 text-lg md:text-2xl text-[#223614]">
+        {/* Navigation */}
+        <nav className="flex gap-10 text-lg md:text-xl">
           <Link
-              href="/contact"
-              className="block "
-            >
-              Contact
-            </Link>
+            href="/blog"
+            className={`transition ${
+              pathname.startsWith("/blog")
+                ? "underline underline-offset-8"
+                : "hover:opacity-70"
+            }`}
+          >
+            Blog
+          </Link>
 
-            <Link
-              href="/blog"
-              className="block"
-            >
-              Blog
-            </Link>
-        </div>
+          <Link
+            href="/contact"
+            className={`transition ${
+              pathname === "/contact"
+                ? "underline underline-offset-8"
+                : "hover:opacity-70"
+            }`}
+          >
+            Contact
+          </Link>
+        </nav>
       </div>
     </header>
   );

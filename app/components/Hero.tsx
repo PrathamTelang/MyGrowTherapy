@@ -32,7 +32,7 @@ export default function Hero() {
 
   <Reveal>
     <div className="w-full flex flex-col items-center justify-center py-16 sm:h-screen">
-      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
+      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614] text-center">
         Find steadiness amid anxiety.
       </p>
 

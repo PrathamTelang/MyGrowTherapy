@@ -26,15 +26,15 @@ function BlogHero() {
   <Reveal>
     <div className="w-full flex flex-col  justify-center py-16 px-10 sm:h-screen ">
       <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
-        The Lilac Blog
+        The Maya Reynolds Journal
       </p>
 
       <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-        My tiny corner of the internet where I talk about all things healing, heart, and wholeness. 
+        Thoughtful reflections on anxiety, trauma, burnout, and the inner work of building steadier ground.
       </p>
 
       <p className="font-bold text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-        Glad you’re here.
+        I’m glad you’re here.
       </p>
     </div>
   </Reveal>
