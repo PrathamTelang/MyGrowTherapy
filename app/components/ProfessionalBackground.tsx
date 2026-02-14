@@ -8,17 +8,17 @@ const backgroundItems = [
   {
     title: "Education",
     content:
-      "I completed a Doctor of Psychology (PsyD) in Clinical Psychology with focused training in adult mental health, assessment, and evidence-based therapeutic practices. My education emphasized both academic understanding and practical clinical application.",
+      "I earned a Doctor of Psychology (PsyD) in Clinical Psychology with advanced training in adult mental health, trauma treatment, and evidence-based therapeutic approaches. My education combined rigorous academic study with extensive clinical experience.",
   },
   {
     title: "Licensure",
     content:
-      "I am a licensed clinical psychologist authorized to provide psychological services to adults. My licensure allows me to offer both in-person sessions and secure telehealth services in accordance with professional standards.",
+      "I am a licensed clinical psychologist based in Santa Monica, California, authorized to provide therapy to adults. I offer both in-person services and secure telehealth sessions in accordance with professional and ethical standards.",
   },
   {
-    title: "Certifications",
+    title: "Specialized Training",
     content:
-      "My professional training includes certifications in cognitive behavioral therapy (CBT), trauma-informed care, mindfulness-based approaches, and EMDR, supporting a flexible and integrative therapeutic approach.",
+      "My training includes advanced work in cognitive-behavioral therapy (CBT), EMDR, trauma-informed care, mindfulness-based practices, and body-oriented techniques, allowing me to address both the emotional and physiological aspects of stress and trauma.",
   },
 ];
 

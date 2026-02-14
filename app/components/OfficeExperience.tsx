@@ -12,13 +12,11 @@ export default function OfficeExperience() {
         <Reveal>
           <div className="max-w-3xl mb-20">
             <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold leading-tight">
-              A Calm Space for Healing
+              A Calm, Grounded Space
             </h2>
 
             <p className="text-md sm:text-xl md:text-2xl mt-8 leading-relaxed">
-              My office is thoughtfully designed to feel quiet, welcoming,
-              and grounded. Soft lighting, comfortable seating, and natural
-              elements create a space where you can settle in fully.
+              My Santa Monica office is designed to feel quiet, private, and welcoming. Natural light and a comfortable setting create a steady space where you can slow down and fully settle in.
             </p>
           </div>
         </Reveal>
@@ -59,18 +57,16 @@ export default function OfficeExperience() {
                 Location
               </h3>
               <p>
-                Located in Minneapolis, MN, offering a quiet and private
-                setting designed for comfort and reflection.
+                123th Street 45 W, Santa Monica, CA 90401
               </p>
             </div>
 
             <div>
               <h3 className="text-2xl md:text-3xl font-medium mb-6">
-                In-Person & Hybrid Sessions
+                In-Person & Telehealth Sessions
               </h3>
               <p>
-                Both in-person and virtual sessions are available — always
-                centered on privacy, safety, and thoughtful care.
+                In-person therapy is available in Santa Monica, with secure telehealth sessions offered to clients throughout California — always centered on privacy, safety, and thoughtful care.
               </p>
             </div>
 

@@ -6,19 +6,24 @@ import Reveal from "./Reveal";
 
 const faqItems = [
   {
-    question: "Do you take insurance?",
+    question: "Do you accept insurance?",
     answer:
-      "I do not currently accept insurance, but I can provide documentation for out-of-network reimbursement if needed.",
+      "I am an out-of-network provider and do not bill insurance directly. I can provide a superbill upon request for possible reimbursement through your insurance plan.",
   },
   {
-    question: "What are your rates?",
+    question: "What are your session fees?",
     answer:
-      "Rates vary depending on session length and type of therapy. Please contact me directly for current details.",
+      "Session fees vary depending on format and length. Please reach out for current rates and additional details.",
   },
   {
-    question: "Do you have any openings?",
+    question: "Do you offer in-person and telehealth sessions?",
     answer:
-      "Availability changes from time to time. Feel free to reach out to check current openings.",
+      "Yes. I offer in-person therapy from my Santa Monica office as well as secure telehealth sessions for clients located throughout California.",
+  },
+  {
+    question: "What issues do you specialize in?",
+    answer:
+      "I work primarily with adults navigating anxiety, trauma, burnout, perfectionism, and high internal pressure. My approach integrates CBT, EMDR, mindfulness-based practices, and body-oriented techniques.",
   },
 ];
 
