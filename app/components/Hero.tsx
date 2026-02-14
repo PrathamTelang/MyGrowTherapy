@@ -33,16 +33,17 @@ export default function Hero() {
   <Reveal>
     <div className="w-full flex flex-col items-center justify-center py-16 sm:h-screen">
       <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614]">
-        Live your life <br /> in full bloom
+        Find steadiness amid anxiety.
       </p>
 
       <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-        Therapy for Adults in Minneapolis, MN.
+        Therapy for adults in Santa Monica, CA <br/>
+In-person & secure telehealth across California
       </p>
 
       <Link href="/contact">
         <button className="hover:bg-[#223614] hover:text-white text-[#223614] transition-colors duration-700 uppercase mt-8 border text-sm flex justify-center items-center px-7 py-4 gap-2">
-          connect with me <MdOutlineArrowRightAlt />
+          Get Started <MdOutlineArrowRightAlt />
         </button>
       </Link>
     </div>
@@ -60,15 +61,15 @@ export default function Hero() {
 
      <div className="flex-1 flex flex-col  justify-center p-10 ">
     <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-[#223614]">
-      Live a fulfilling life.
+      You don’t have to navigate this alone.
     </p>
 
     <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-      Life can be challenging—especially when you're trying to balance your personal and professional life.
+      Life can feel overwhelming—especially when anxiety, stress, or internal pressure never fully settle.
     </p>
 
     <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-      It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.
+       Therapy offers space to slow down, gain clarity, and move forward with greater steadiness.
     </p>
   </div>
 

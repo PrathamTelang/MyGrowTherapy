@@ -6,21 +6,21 @@ import Reveal from './Reveal'
 
 const specialties = [
     {
-      title: "Self-Esteem",
+      title: "Anxiety & Panic",
       description:
-        "Developing a healthier relationship with yourself can transform how you experience everyday life. Therapy can help strengthen confidence, self-trust, and emotional awareness.",
+        "Support for chronic worry, racing thoughts, and nervous system overwhelm.",
       image: "/Live a fulfilling life.webp",
     },
     {
-      title: "Relationships",
+      title: "Trauma & EMDR",
       description:
-        "Patterns in relationships often reflect deeper emotional needs. Together, we explore communication, boundaries, and connection in a supportive way.",
+        "Carefully paced trauma work focused on safety, regulation, and healing.",
       image: "/Live a fulfilling life.webp",
     },
     {
-      title: "Burnout",
+      title: "Burnout & High Pressure",
       description:
-        "Chronic stress and pressure can leave you feeling depleted. Therapy offers tools to restore balance, prevent burnout, and reconnect with your energy.",
+        "Helping high-achieving adults move from exhaustion to steadiness.",
       image: "/Live a fulfilling life.webp",
     },
   ];
@@ -31,7 +31,7 @@ function Specialties() {
       <div className="bg-[#FBF0F1] py-10 sm:py-16 md:py-20 px-6">
 
   <div className="text-4xl lg:text-6xl xl:text-7xl font-semibold text-center text-[#223614]">
-    My Specialties
+    Areas of Focus
   </div>
 
   <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
@@ -87,29 +87,28 @@ function Specialties() {
 
     <div className="flex flex-col justify-center py-12 px-8 sm:p-10">
       <p className="text-4xl lg:text-6xl xl:text-7xl font-bold text-[#223614]">
-        You don’t have to do this all alone.
+        You don’t have to keep carrying this on your own.
       </p>
 
       <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-        If you are facing any of these, there’s hope:
+        If you’re experiencing:
       </p>
 
       <ul className="list-disc pl-5 flex flex-col gap-3 text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-        <li>Feeling emotionally drained or overwhelmed</li>
-        <li>Difficulty focusing or staying present</li>
-        <li>Ongoing stress or anxiety that won’t settle</li>
-        <li>Struggles in personal or professional relationships</li>
-        <li>A constant sense of pressure or self-doubt</li>
+        <li>Ongoing anxiety or constant mental overdrive</li>
+        <li>Emotional exhaustion or burnout</li>
+        <li>Difficulty feeling present in your body</li>
+        <li>Lingering effects of past experiences</li>
+        <li>High internal pressure or self-doubt</li>
       </ul>
 
       <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
-        Support can help you slow down, gain clarity, and build steadier ways
-        to navigate life’s challenges.
+        There is a way to feel more steady, regulated, and supported. Therapy can help you slow down, gain clarity, and rebuild a stronger relationship with yourself.
       </p>
     </div>
     <Link href="/contact" className="w-full mt-auto">
       <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 hover:bg-[#223614] hover:text-white transition-colors duration-700">
-        connect with me <MdOutlineArrowRightAlt />
+        Schedule a Consultation <MdOutlineArrowRightAlt />
       </button>
     </Link>
   </div>
