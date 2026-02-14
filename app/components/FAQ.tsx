@@ -39,8 +39,8 @@ export default function FAQ() {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-stretch ">
 
         <Reveal className="w-full lg:w-1/2">
-  <div className="flex w-full ">
-    <div className="relative h-[55vh] lg:h-[85vh] w-[85%] rounded-t-full overflow-hidden">
+  <div className="flex w-full justify-center ">
+    <div className="relative h-[55vh] lg:h-[85vh] w-[85%] rounded-t-full overflow-hidden mb-10">
       <Image
         src="/Live a fulfilling life.webp"
         alt="Frequently Asked Questions"

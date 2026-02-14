@@ -39,10 +39,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="leading-tight">
           <div className="text-2xl md:text-3xl font-semibold">
-            Dr. Maya Reynolds, PsyD
-          </div>
-          <div className="text-sm md:text-base opacity-70">
-            Licensed Clinical Psychologist
+            Dr. Maya .R, PsyD
           </div>
         </Link>
 
