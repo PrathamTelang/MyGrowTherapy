@@ -12,17 +12,17 @@ export default function Footer() {
         {/* LEFT */}
         <div className="space-y-6">
           <h2 className="text-4xl md:text-5xl font-semibold">
-            Lilac Template
+            Dr. Maya Reynolds, PsyD
           </h2>
 
           <div className="space-y-2 text-lg">
-            <p>123 Example Road</p>
-            <p>Minneapolis, MN</p>
+            <p>123th Street 45 W</p>
+            <p>Santa Monica, CA 90401</p>
           </div>
 
           <div className="space-y-2 text-lg pt-4">
             <p className="underline underline-offset-4 cursor-pointer">
-              email@example.com
+              mayareynolds@example.com
             </p>
             <p className="underline underline-offset-4 cursor-pointer">
               (555) 555-5555

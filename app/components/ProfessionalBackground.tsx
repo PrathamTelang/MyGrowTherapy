@@ -108,17 +108,15 @@ export default function ProfessionalBackground() {
           <div className="max-w-3xl mx-auto text-center">
 
             <h3 className="text-4xl md:text-5xl font-semibold mb-8">
-              Get started today.
+              Begin when you’re ready.
             </h3>
 
             <p className="text-md md:text-lg leading-relaxed max-w-xl mx-auto">
-              If you’re ready to make space for clarity, balance, and growth,
-              this is a meaningful place to begin. Reach out to start a
-              conversation and explore what support could look like for you.
+              If you're ready to feel more steady, grounded, and supported, this can be a meaningful place to begin. Reach out to explore what working together might look like.
             </p>
 
             <button className="mt-10 inline-flex items-center gap-2 uppercase text-sm border border-white px-6 py-3 transition-all duration-500 hover:bg-white hover:text-[#7e7b46]">
-              connect with me <MdOutlineArrowRightAlt />
+              Schedule a Consultation <MdOutlineArrowRightAlt />
             </button>
 
           </div>
