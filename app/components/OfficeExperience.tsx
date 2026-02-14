@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 
 export default function OfficeExperience() {
   return (
-    <section className="bg-[#F4EFEA] px-8 md:px-20 py-28 text-[#223614] w-full ">
+    <section className="bg-[#F4EFEA] px-8 md:px-20 py-28 text-textcolor w-full ">
       <div className="max-w-6xl w-full mx-auto">
 
         {/* TEXT */}

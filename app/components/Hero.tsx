@@ -10,7 +10,7 @@ export default function Hero() {
   const router = useRouter();
   
   return (
-    <div className="pt-14 bg-[#faf7f2]">
+    <div className="pt-14 bg-primary">
         <div className="min-h-screen grid sm:grid-cols-2 ">
 
 <Reveal>
@@ -32,17 +32,17 @@ export default function Hero() {
 
   <Reveal>
     <div className="w-full flex flex-col items-center justify-center py-16 sm:h-screen">
-      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#223614] text-center">
+      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-textcolor text-center">
         Find steadiness amid anxiety.
       </p>
 
-      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+      <p className="text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
         Therapy for adults in Santa Monica, CA <br/>
 In-person & secure telehealth across California
       </p>
 
       <Link href="/contact">
-        <button className="hover:bg-[#223614] hover:text-white text-[#223614] transition-colors duration-700 uppercase mt-8 border text-sm flex justify-center items-center px-7 py-4 gap-2">
+        <button className="bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor transition-colors duration-700 uppercase mt-8 border text-sm flex justify-center items-center px-7 py-4 gap-2 cursor-pointer">
           Get Started <MdOutlineArrowRightAlt />
         </button>
       </Link>
@@ -53,28 +53,28 @@ In-person & secure telehealth across California
 
         
 
-            <div className="min-h-screen sm:h-screen flex flex-col sm:flex-row bg-[#E5E0DA]">
+            <div className="min-h-screen sm:h-screen flex flex-col sm:flex-row bg-secondary">
 
         {/* TEXT SIDE */}
             <Reveal className="order-2 sm:order-1 w-full sm:w-1/2">
         <div className="h-full flex flex-col">
 
      <div className="flex-1 flex flex-col  justify-center p-10 ">
-    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-[#223614]">
+    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-textcolor">
       You don’t have to navigate this alone.
     </p>
 
-    <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+    <p className="text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
       Life can feel overwhelming—especially when anxiety, stress, or internal pressure never fully settle.
     </p>
 
-    <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+    <p className="text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
        Therapy offers space to slow down, gain clarity, and move forward with greater steadiness.
     </p>
   </div>
 
   <Link href="/contact" className="w-full">
-    <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 hover:bg-[#223614] hover:text-white transition-colors duration-700">
+    <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 bg-accent hover:bg-secondary text-primary hover:text-textcolor transition-colors duration-700">
       connect with me <MdOutlineArrowRightAlt />
     </button>
   </Link>

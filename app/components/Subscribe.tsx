@@ -2,8 +2,8 @@ import React from 'react'
 
 function Subscribe() {
   return (
-    <section className="bg-[#7e7b46] py-28 text-white">
-        <div className="max-w-3xl mx-auto border border-white p-16 text-center">
+    <section className="bg-accent py-28 text-primary">
+        <div className="max-w-3xl mx-auto border border-primary rounded-lg p-16 text-center">
 
           <h3 className="text-4xl md:text-5xl lg:text-7xl font-semibold leading-tight">
             Subscribe
@@ -17,9 +17,9 @@ function Subscribe() {
             <input
               type="email"
               placeholder="Email Address"
-              className="px-6 py-4 text-gray-800 w-full sm:w-[350px] text-lg bg-white"
+              className="px-6 py-4 text-accent w-full sm:w-[350px] rounded-lg text-lg bg-primary"
             />
-            <button className="border border-white px-8 py-4 uppercase text-sm tracking-wide hover:bg-white hover:text-[#7e7b46] transition-all duration-500">
+            <button className="border border-white px-8 py-4 uppercase text-sm tracking-wide bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor transition-all duration-500">
               Sign Up
             </button>
           </div>

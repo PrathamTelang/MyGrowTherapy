@@ -7,7 +7,7 @@ import { posts } from "@/lib/posts";
 
 export default function BlogPage() {
   return (
-    <div className="bg-[#faf7f2] text-[#223614]">
+    <div className="bg-primary text-textcolor">
       <Header />
       <BlogHero />
       <BlogGrid posts={posts} />

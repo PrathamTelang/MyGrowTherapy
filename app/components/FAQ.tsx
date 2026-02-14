@@ -35,7 +35,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="bg-[#faf7f2] py-20 px-6">
+    <div className="bg-primary py-20 px-6">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-stretch ">
 
         <Reveal className="w-full lg:w-1/2">
@@ -56,18 +56,18 @@ export default function FAQ() {
         <Reveal className="w-full lg:w-1/2 flex items-center">
           <div className="w-full">
 
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-[#223614] mb-12">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-textcolor mb-12">
               Frequently Asked Questions
             </h2>
 
-            <div className="border-t border-[#223614]">
+            <div className="border-t border-textcolor">
               {faqItems.map((item, itemIndex) => {
                 const isActive = activeItem === itemIndex;
 
                 return (
                   <div
                     key={itemIndex}
-                    className="border-b border-[#223614] py-6"
+                    className="border-b border-textcolor py-6"
                   >
                     {/* Question Row */}
                     <button
@@ -75,16 +75,16 @@ export default function FAQ() {
                       className="w-full flex items-center justify-between text-left"
                       aria-expanded={isActive}
                     >
-                      <span className="text-xl md:text-3xl text-[#223614]">
+                      <span className="text-xl md:text-3xl text-textcolor">
                         {item.question}
                       </span>
 
                       {/* Plus / Minus Icon */}
                       <div className="relative w-5 h-5 ml-6 shrink-0">
-                        <span className="absolute top-1/2 left-0 w-full h-[2px] bg-[#223614] -translate-y-1/2"></span>
+                        <span className="absolute top-1/2 left-0 w-full h-[2px] bg-textcolor -translate-y-1/2"></span>
 
                         <span
-                          className={`absolute left-1/2 top-0 h-full w-[2px] bg-[#223614]
+                          className={`absolute left-1/2 top-0 h-full w-[2px] bg-textcolor
                           -translate-x-1/2 transition-all duration-300
                           ${isActive ? "opacity-0 rotate-90" : ""}`}
                         ></span>
@@ -100,7 +100,7 @@ export default function FAQ() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <p className="text-md sm:text-xl md:text-2xl text-[#223614] leading-relaxed">
+                        <p className="text-md sm:text-xl md:text-2xl text-textcolor leading-relaxed">
                           {item.answer}
                         </p>
                       </div>

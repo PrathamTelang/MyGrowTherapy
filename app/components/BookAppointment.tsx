@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BookAppointment() {
   return (
-    <section className="bg-[#F4EFEA] px-8 md:px-16 py-24 text-[#223614]">
+    <section className="bg-[#F4EFEA] px-8 md:px-16 py-24 text-textcolor">
 
       <div className="max-w-4xl mx-auto text-center">
 
@@ -23,7 +23,7 @@ export default function BookAppointment() {
       {/* SCHEDULING WIDGET CONTAINER */}
       <div className="mt-16 max-w-4xl mx-auto">
 
-        <div className="border border-[#223614]/20 p-8 md:p-12 bg-white shadow-sm rounded-sm">
+        <div className="border border-textcolor/20 p-8 md:p-12 bg-white shadow-sm rounded-sm">
 
           {/* EMBED CALENDLY (Example) */}
           <div className="w-full h-[650px]">
@@ -47,7 +47,7 @@ export default function BookAppointment() {
       <div className="mt-12 text-center">
         <Link
           href="/contact"
-          className="inline-flex items-center justify-center gap-2 mt-6 border border-[#223614] px-7 py-4 uppercase text-sm transition-colors duration-500 hover:bg-[#223614] hover:text-white"
+          className="inline-flex items-center justify-center gap-2 mt-6 border border-textcolor px-7 py-4 uppercase text-sm transition-colors duration-500 bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor"
         >
           Contact Dr. Maya
         </Link>

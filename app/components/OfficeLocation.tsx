@@ -2,7 +2,7 @@
 
 export default function OfficeSection() {
   return (
-    <section className="bg-[#7E7B46] text-white px-8 md:px-20 py-24">
+    <section className="bg-accent text-white px-8 md:px-20 py-24">
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
 

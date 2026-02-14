@@ -11,7 +11,7 @@ type Post = {
 
 export default function BlogGrid({ posts }: { posts: Post[] }) {
   return (
-    <section className="bg-[#EAE4DE] py-24">
+    <section className="bg-secondary py-24">
       <div className="max-w-6xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-20">
 
         {posts.map((post) => (
@@ -35,7 +35,7 @@ export default function BlogGrid({ posts }: { posts: Post[] }) {
               {post.title}
             </h3>
 
-            <div className="inline-block border-b border-[#223614] text-sm uppercase tracking-wide pb-1">
+            <div className="inline-block border-b border-textcolor text-sm uppercase tracking-wide pb-1">
               Read More
             </div>
           </Link>

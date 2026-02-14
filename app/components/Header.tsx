@@ -34,7 +34,7 @@ export default function Header() {
         ${visible ? "translate-y-0" : "-translate-y-full"}
       `}
     >
-      <div className="h-20 flex justify-between items-center md:px-20 px-6 text-[#223614]">
+      <div className="h-20 flex justify-between items-center md:px-20 px-6 text-textcolor">
 
         {/* Logo */}
         <Link href="/" className="leading-tight">

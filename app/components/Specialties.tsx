@@ -30,21 +30,21 @@ function Specialties() {
     <div>
       <div className="bg-[#FBF0F1] py-10 sm:py-16 md:py-20 px-6">
 
-  <div className="text-4xl lg:text-6xl xl:text-7xl font-semibold text-center text-[#223614]">
+  <div className="text-4xl lg:text-6xl xl:text-7xl font-semibold text-center text-textcolor">
     Areas of Focus
   </div>
 
   <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
     {specialties.map((item, index) => (
       <Reveal key={index}>
-        <div className="bg-[#E5E0DA] border border-[#223614] p-8 flex flex-col justify-between h-full">
+        <div className="bg-secondary border border-textcolor p-8 flex flex-col justify-between h-full">
 
           <div className="space-y-6">
-            <h3 className="text-md sm:text-xl md:text-2xl font-medium text-[#223614]">
+            <h3 className="text-md sm:text-xl md:text-2xl font-medium text-textcolor">
               {item.title}
             </h3>
 
-            <p className="text-sm sm:text-md md:text-xl leading-relaxed text-[#223614]">
+            <p className="text-sm sm:text-md md:text-xl leading-relaxed text-textcolor">
               {item.description}
             </p>
           </div>
@@ -67,7 +67,7 @@ function Specialties() {
 </div>
 
 
-         <div className="min-h-screen flex flex-col sm:flex-row bg-[#C2BFCB]">
+         <div className="min-h-screen flex flex-col sm:flex-row bg-secondary">
 
   {/* IMAGE SIDE */}
   <Reveal className="w-full sm:w-1/2">
@@ -86,15 +86,15 @@ function Specialties() {
   <div className="flex flex-col h-full sm:min-h-screen">
 
     <div className="flex flex-col justify-center py-12 px-8 sm:p-10">
-      <p className="text-4xl lg:text-6xl xl:text-7xl font-bold text-[#223614]">
+      <p className="text-4xl lg:text-6xl xl:text-7xl font-bold text-textcolor">
         You don’t have to keep carrying this on your own.
       </p>
 
-      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+      <p className="text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
         If you’re experiencing:
       </p>
 
-      <ul className="list-disc pl-5 flex flex-col gap-3 text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+      <ul className="list-disc pl-5 flex flex-col gap-3 text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
         <li>Ongoing anxiety or constant mental overdrive</li>
         <li>Emotional exhaustion or burnout</li>
         <li>Difficulty feeling present in your body</li>
@@ -102,12 +102,12 @@ function Specialties() {
         <li>High internal pressure or self-doubt</li>
       </ul>
 
-      <p className="text-md sm:text-xl md:text-2xl mt-6 text-[#223614]">
+      <p className="text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
         There is a way to feel more steady, regulated, and supported. Therapy can help you slow down, gain clarity, and rebuild a stronger relationship with yourself.
       </p>
     </div>
     <Link href="/contact" className="w-full mt-auto">
-      <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 hover:bg-[#223614] hover:text-white transition-colors duration-700">
+      <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 bg-accent hover:bg-secondary  text-primary hover:text-textcolor transition-colors duration-700">
         Schedule a Consultation <MdOutlineArrowRightAlt />
       </button>
     </Link>

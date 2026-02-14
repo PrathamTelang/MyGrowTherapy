@@ -35,17 +35,17 @@ export default function ProfessionalBackground() {
     <div>
 
       {/* BACKGROUND SECTION */}
-      <section className="bg-[#E5E0DA] py-24 px-6">
+      <section className="bg-secondary py-24 px-6">
         <div className="max-w-4xl mx-auto">
 
           <Reveal>
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-[#223614] text-center mb-16">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-textcolor text-center mb-16">
               Professional Background
             </h2>
           </Reveal>
 
           <Reveal>
-            <div className="border-t border-[#223614]">
+            <div className="border-t border-textcolor">
 
               {backgroundItems.map((item, sectionIndex) => {
                 const isExpanded = expandedSection === sectionIndex;
@@ -53,7 +53,7 @@ export default function ProfessionalBackground() {
                 return (
                   <div
                     key={sectionIndex}
-                    className="border-b border-[#223614] py-6"
+                    className="border-b border-textcolor py-6"
                   >
                     {/* TITLE ROW */}
                     <button
@@ -61,16 +61,16 @@ export default function ProfessionalBackground() {
                       aria-expanded={isExpanded}
                       className="w-full flex items-center justify-between text-left"
                     >
-                      <span className="text-xl md:text-3xl text-[#223614]">
+                      <span className="text-xl md:text-3xl text-textcolor">
                         {item.title}
                       </span>
 
                       {/* Animated indicator */}
                       <div className="relative w-5 h-5 shrink-0 ml-6">
-                        <span className="absolute top-1/2 left-0 w-full h-0.5 bg-[#223614] -translate-y-1/2"></span>
+                        <span className="absolute top-1/2 left-0 w-full h-0.5 bg-textcolor -translate-y-1/2"></span>
 
                         <span
-                          className={`absolute left-1/2 top-0 h-full w-0.5 bg-[#223614]
+                          className={`absolute left-1/2 top-0 h-full w-0.5 bg-textcolor
                           -translate-x-1/2 transition-all duration-300
                           ${isExpanded ? "opacity-0 rotate-90" : ""}`}
                         />
@@ -86,7 +86,7 @@ export default function ProfessionalBackground() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <p className="text-md sm:text-xl md:text-2xl leading-relaxed text-[#223614] pr-2">
+                        <p className="text-md sm:text-xl md:text-2xl leading-relaxed text-textcolor pr-2">
                           {item.content}
                         </p>
                       </div>
@@ -103,7 +103,7 @@ export default function ProfessionalBackground() {
       </section>
 
       {/* CALL TO ACTION SECTION */}
-      <section className="bg-[#7e7b46] py-24 px-6 text-white">
+      <section className="bg-accent py-24 px-6 text-secondary">
         <Reveal>
           <div className="max-w-3xl mx-auto text-center">
 
@@ -115,7 +115,7 @@ export default function ProfessionalBackground() {
               If you're ready to feel more steady, grounded, and supported, this can be a meaningful place to begin. Reach out to explore what working together might look like.
             </p>
 
-            <button className="mt-10 inline-flex items-center gap-2 uppercase text-sm border border-white px-6 py-3 transition-all duration-500 hover:bg-white hover:text-[#7e7b46]">
+            <button className="mt-10 inline-flex items-center gap-2 uppercase text-sm border border-white px-6 py-3 transition-all duration-500 bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor">
               Schedule a Consultation <MdOutlineArrowRightAlt />
             </button>
 

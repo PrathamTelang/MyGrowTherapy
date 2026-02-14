@@ -15,7 +15,7 @@ export default async function BlogPostPage({
   return (
     <>
     <Header />
-    <article className="bg-[#F4EFEA] px-8 md:px-16 py-28 text-[#223614]">
+    <article className="bg-[#F4EFEA] px-8 md:px-16 py-28 text-textcolor">
       <div className="max-w-3xl mx-auto">
 
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-semibold">

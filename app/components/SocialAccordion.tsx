@@ -18,7 +18,7 @@ export default function SocialAccordion() {
   return (
     <section className="bg-[#F4EFEA] px-8 md:px-16 py-24">
 
-      <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-[#223614] mb-16">
+      <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-textcolor mb-16">
         Find me on social.
       </h2>
 

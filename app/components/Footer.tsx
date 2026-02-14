@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#D7D2CB] text-[#223614]">
+    <footer className="bg-primary text-textcolor">
 
       {/* TOP SECTION */}
       <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-3 gap-16">
@@ -71,7 +71,7 @@ export default function Footer() {
       </div>
 
       {/* BOTTOM SECTION */}
-      <div className="bg-[#CFCAC3] text-center px-6 py-10 space-y-6 text-sm">
+      <div className="bg-primary text-center px-6 py-10 space-y-6 text-sm">
 
         <div className="flex flex-wrap justify-center gap-6">
           <span className="underline underline-offset-4 cursor-pointer">
