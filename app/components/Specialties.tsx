@@ -9,19 +9,19 @@ const specialties = [
       title: "Anxiety & Panic",
       description:
         "Support for chronic worry, racing thoughts, and nervous system overwhelm.",
-      image: "/Live a fulfilling life.webp",
+      image: "/images/specialties-blogs/meditation.jpg",
     },
     {
       title: "Trauma & EMDR",
       description:
         "Carefully paced trauma work focused on safety, regulation, and healing.",
-      image: "/Live a fulfilling life.webp",
+      image: "/images/specialties-blogs/healing-space.jpg",
     },
     {
       title: "Burnout & High Pressure",
       description:
         "Helping high-achieving adults move from exhaustion to steadiness.",
-      image: "/Live a fulfilling life.webp",
+      image: "/images/specialties-blogs/steady-rocks.jpg",
     },
   ];
 
@@ -73,8 +73,8 @@ function Specialties() {
   <Reveal className="w-full sm:w-1/2">
     <div className="relative h-[45vh] sm:h-full w-full">
       <Image
-        src="/Live a fulfilling life.webp"
-        alt="Flower"
+        src="/images/hero/therapy.jpg"
+        alt="Therapy session"
         fill
         className="object-cover"
       />

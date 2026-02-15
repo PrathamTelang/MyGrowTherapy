@@ -12,8 +12,8 @@ function BlogHero() {
                     h-[55vh] sm:h-[90vh] 
                     w-[65%] md:w-[60%] mt-10">
       <Image
-        src="/Live a fulfilling life.webp"
-        alt="Flower"
+        src="/images/hero/journal.jpg"
+        alt="Journal"
         fill
         className="object-cover"
         priority

@@ -19,7 +19,7 @@ export default function Hero() {
                     h-[55vh] sm:h-[90vh] 
                     w-[65%] md:w-[60%] mt-10">
       <Image
-        src="/Live a fulfilling life.webp"
+        src="/images/hero/steady-tree.jpg"
         alt="Flower"
         fill
         className="object-cover"
@@ -87,8 +87,8 @@ In-person & secure telehealth across California
   <Reveal className="order-1 sm:order-2 w-full sm:w-1/2">
     <div className="relative h-64 sm:h-full w-full">
       <Image
-        src="/Live a fulfilling life.webp"
-        alt="Flower"
+        src="/images/hero/two-hands.jpg"
+        alt="Two hands holding a flower"
         fill
         className="object-cover"
       />

@@ -4,7 +4,7 @@ const post = {
   date: "January 2026",
   excerpt:
     "Trauma is not just a memory — it can be an ongoing physiological experience.",
-  image: "/post3.jpg",
+  image: "/images/specialties-blogs/healing-space.jpg",
   content: `
 Trauma does not only exist in thought.
 

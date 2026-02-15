@@ -28,7 +28,7 @@ export default function OfficeExperience() {
             {/* Image 1 */}
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md">
               <Image
-                src="/Live a fulfilling life.webp"
+                src="/images/office/office1.jpeg"
                 alt="Therapy office interior"
                 fill
                 className="object-cover"
@@ -38,7 +38,7 @@ export default function OfficeExperience() {
             {/* Image 2 */}
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md">
               <Image
-                src="/Live a fulfilling life.webp"
+                src="/images/office/office2.jpeg"
                 alt="Comfortable counseling space"
                 fill
                 className="object-cover"

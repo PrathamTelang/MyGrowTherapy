@@ -42,7 +42,7 @@ export default function FAQ() {
   <div className="flex w-full justify-center ">
     <div className="relative h-[55vh] lg:h-[85vh] w-[85%] rounded-t-full overflow-hidden mb-10">
       <Image
-        src="/Live a fulfilling life.webp"
+        src="/images/hero/empty-book.jpg"
         alt="Frequently Asked Questions"
         fill
         className="object-cover"

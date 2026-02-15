@@ -4,7 +4,7 @@ const post = {
   date: "February 2026",
   excerpt:
     "When competence masks exhaustion, burnout can quietly build beneath the surface.",
-  image: "/post2.jpg",
+  image: "/images/specialties-blogs/steady-rocks.jpg",
   content: `
 Burnout rarely announces itself dramatically.
 

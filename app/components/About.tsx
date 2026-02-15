@@ -32,12 +32,12 @@ function About() {
       <Reveal className="order-1 sm:order-2 w-full sm:w-1/3 flex items-center justify-center">
   <div className="relative h-[55vh] sm:h-[90vh] w-[65%] md:w-[80%] rounded-t-full overflow-hidden mt-10">
     <Image
-      src="/Live a fulfilling life.webp"
-      alt="Therapy and growth"
-      fill
-      className="object-cover"
-      priority
-    />
+  src="/images/doctor/dr-maya-reynolds.png"
+  alt="Dr. Maya Reynolds"
+  fill
+  className="object-cover"
+  priority
+/>
   </div>
 </Reveal>
 

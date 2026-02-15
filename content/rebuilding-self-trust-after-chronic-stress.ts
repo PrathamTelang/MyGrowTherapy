@@ -4,7 +4,7 @@ const post = {
   date: "December 2025",
   excerpt:
     "Chronic stress can erode self-trust. Therapy can help restore a steadier internal foundation.",
-  image: "/post4.jpg",
+  image: "/images/specialties-blogs/self-trust.jpg",
   content: `
 When you’ve lived in high stress for extended periods, your sense of internal steadiness can weaken. You may second-guess decisions, question your reactions, or feel disconnected from your own needs.
 
