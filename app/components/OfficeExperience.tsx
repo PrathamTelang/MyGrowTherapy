@@ -53,7 +53,7 @@ export default function OfficeExperience() {
           <div className="mt-20 grid md:grid-cols-2 gap-16 text-md sm:text-xl md:text-2xl leading-relaxed">
 
             <div>
-              <h3 className="text-2xl md:text-3xl font-medium mb-6">
+              <h3 className="text-2xl md:text-3xl font-heading font-medium mb-6">
                 Location
               </h3>
               <p>
@@ -62,7 +62,7 @@ export default function OfficeExperience() {
             </div>
 
             <div>
-              <h3 className="text-2xl md:text-3xl font-medium mb-6">
+              <h3 className="text-2xl md:text-3xl font-heading font-medium mb-6">
                 In-Person & Telehealth Sessions
               </h3>
               <p>
