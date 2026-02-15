@@ -37,10 +37,10 @@ function Specialties() {
   <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
     {specialties.map((item, index) => (
       <Reveal key={index}>
-        <div className="bg-secondary border border-textcolor p-8 flex flex-col justify-between h-full">
+        <div className="bg-secondary  rounded-lg shadow-2xl p-8 flex flex-col justify-between h-full">
 
           <div className="space-y-6">
-            <h3 className="text-md sm:text-xl md:text-2xl font-medium text-textcolor">
+            <h3 className="text-md sm:text-xl md:text-2xl font-heading font-medium text-textcolor">
               {item.title}
             </h3>
 
