@@ -9,7 +9,7 @@ const specialties = [
       title: "Anxiety & Panic",
       description:
         "Support for chronic worry, racing thoughts, and nervous system overwhelm.",
-      image: "/images/specialties-blogs/meditation.jpg",
+      image: "/images/specialties-blogs/relax-meditation.jpg",
     },
     {
       title: "Trauma & EMDR",

@@ -4,7 +4,7 @@ const post = {
   date: "March 2026",
   excerpt:
     "Anxiety isn’t a personal failing — it’s often a nervous system that hasn’t learned it’s safe to slow down.",
-  image: "/images/specialties-blogs/meditation.jpg",
+  image: "/images/specialties-blogs/relax-meditation.jpg",
   content: `
 Anxiety is not simply “overthinking.”
 
