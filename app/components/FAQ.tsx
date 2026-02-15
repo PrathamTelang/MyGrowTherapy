@@ -56,7 +56,7 @@ export default function FAQ() {
         <Reveal className="w-full lg:w-1/2 flex items-center">
           <div className="w-full">
 
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-textcolor mb-12">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-heading text-textcolor mb-12">
               Frequently Asked Questions
             </h2>
 
@@ -72,7 +72,7 @@ export default function FAQ() {
                     {/* Question Row */}
                     <button
                       onClick={() => handleToggle(itemIndex)}
-                      className="w-full flex items-center justify-between text-left"
+                      className="w-full font-heading flex items-center justify-between text-left"
                       aria-expanded={isActive}
                     >
                       <span className="text-xl md:text-3xl text-textcolor">

@@ -6,3 +6,18 @@
   --color-secondary: #DFD7C9;
   --color-accent: #242424;
 }
+
+:root {
+  --font-body: var(--font-alegreya);
+  --font-heading: var(--font-bellefair);
+}
+
+/* Base typography */
+body {
+  font-family: var(--font-body);
+}
+
+/* Optional semantic utilities */
+.font-heading {
+  font-family: var(--font-heading);
+}

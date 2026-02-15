@@ -31,7 +31,7 @@ export default function BlogGrid({ posts }: { posts: Post[] }) {
 
             <p className="text-sm opacity-70">{post.date}</p>
 
-            <h3 className="text-4xl md:text-5xl font-semibold leading-tight">
+            <h3 className="text-4xl md:text-5xl font-heading leading-tight">
               {post.title}
             </h3>
 

@@ -9,7 +9,7 @@ export default function BookAppointment() {
       <div className="max-w-4xl mx-auto text-center">
 
         {/* TITLE */}
-        <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold leading-tight">
+        <h2 className="text-4xl md:text-5xl lg:text-7xl font-heading leading-tight">
           Schedule a Consultation
         </h2>
 

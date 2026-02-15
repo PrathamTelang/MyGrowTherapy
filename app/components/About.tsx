@@ -11,7 +11,7 @@ function About() {
       {/* TEXT SIDE */}
       <Reveal className="order-2 sm:order-1 w-full sm:w-1/2 flex items-center justify-center px-8 py-16 text-center sm:text-left">
         <div>
-          <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-textcolor leading-tight ">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-heading text-textcolor leading-tight ">
             Hi, I’m Lilac.
           </h2>
 

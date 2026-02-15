@@ -30,7 +30,7 @@ function Specialties() {
     <div>
       <div className="bg-[#FBF0F1] py-10 sm:py-16 md:py-20 px-6">
 
-  <div className="text-4xl lg:text-6xl xl:text-7xl font-semibold text-center text-textcolor">
+  <div className="text-4xl lg:text-6xl xl:text-7xl font-heading text-center text-textcolor font-heading ">
     Areas of Focus
   </div>
 
@@ -86,7 +86,7 @@ function Specialties() {
   <div className="flex flex-col h-full sm:min-h-screen">
 
     <div className="flex flex-col justify-center py-12 px-8 sm:p-10">
-      <p className="text-4xl lg:text-6xl xl:text-7xl font-bold text-textcolor">
+      <p className="text-4xl lg:text-6xl xl:text-7xl font-heading  text-textcolor">
         You don’t have to keep carrying this on your own.
       </p>
 
@@ -107,7 +107,7 @@ function Specialties() {
       </p>
     </div>
     <Link href="/contact" className="w-full mt-auto">
-      <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 bg-accent hover:bg-secondary  text-primary hover:text-textcolor transition-colors duration-700">
+      <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 bg-accent hover:bg-secondary  text-primary hover:text-textcolor font-heading transition-colors duration-700">
         Schedule a Consultation <MdOutlineArrowRightAlt />
       </button>
     </Link>

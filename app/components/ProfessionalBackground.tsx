@@ -39,7 +39,7 @@ export default function ProfessionalBackground() {
         <div className="max-w-4xl mx-auto">
 
           <Reveal>
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-textcolor text-center mb-16">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-heading text-textcolor text-center mb-16">
               Professional Background
             </h2>
           </Reveal>
@@ -59,7 +59,7 @@ export default function ProfessionalBackground() {
                     <button
                       onClick={() => handleSectionToggle(sectionIndex)}
                       aria-expanded={isExpanded}
-                      className="w-full flex items-center justify-between text-left"
+                      className="w-full flex font-heading items-center justify-between text-left"
                     >
                       <span className="text-xl md:text-3xl text-textcolor">
                         {item.title}
@@ -107,7 +107,7 @@ export default function ProfessionalBackground() {
         <Reveal>
           <div className="max-w-3xl mx-auto text-center">
 
-            <h3 className="text-4xl md:text-5xl font-semibold mb-8">
+            <h3 className="text-4xl md:text-5xl font-heading mb-8">
               Begin when you’re ready.
             </h3>
 
@@ -115,7 +115,7 @@ export default function ProfessionalBackground() {
               If you're ready to feel more steady, grounded, and supported, this can be a meaningful place to begin. Reach out to explore what working together might look like.
             </p>
 
-            <button className="mt-10 inline-flex items-center gap-2 uppercase text-sm border border-white px-6 py-3 transition-all duration-500 bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor">
+            <button className="mt-10 font-heading inline-flex items-center gap-2 uppercase text-sm border border-white px-6 py-3 transition-all duration-500 bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor">
               Schedule a Consultation <MdOutlineArrowRightAlt />
             </button>
 

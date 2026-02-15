@@ -32,8 +32,8 @@ export default function Hero() {
 
   <Reveal>
     <div className="w-full flex flex-col items-center justify-center py-16 sm:h-screen">
-      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-textcolor text-center">
-        Find steadiness amid anxiety.
+      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl  text-textcolor text-center font-heading">
+        Find steadiness <br/> amid anxiety.
       </p>
 
       <p className="text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
@@ -42,7 +42,7 @@ In-person & secure telehealth across California
       </p>
 
       <Link href="/contact">
-        <button className="bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor transition-colors duration-700 uppercase mt-8 border text-sm flex justify-center items-center px-7 py-4 gap-2 cursor-pointer">
+        <button className="bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor transition-colors duration-700 uppercase mt-8 border text-sm font-heading flex justify-center items-center px-7 py-4 gap-2 cursor-pointer">
           Get Started <MdOutlineArrowRightAlt />
         </button>
       </Link>
@@ -60,7 +60,7 @@ In-person & secure telehealth across California
         <div className="h-full flex flex-col">
 
      <div className="flex-1 flex flex-col  justify-center p-10 ">
-    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-textcolor">
+    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-heading  text-textcolor">
       You don’t have to navigate this alone.
     </p>
 
@@ -74,7 +74,7 @@ In-person & secure telehealth across California
   </div>
 
   <Link href="/contact" className="w-full">
-    <button className="w-full border-t py-5 uppercase text-sm flex justify-center items-center gap-2 bg-accent hover:bg-secondary text-primary hover:text-textcolor transition-colors duration-700">
+    <button className="w-full border-t py-5 uppercase text-sm flex justify-center font-heading items-center gap-2 bg-accent hover:bg-secondary text-primary hover:text-textcolor transition-colors duration-700">
       connect with me <MdOutlineArrowRightAlt />
     </button>
   </Link>

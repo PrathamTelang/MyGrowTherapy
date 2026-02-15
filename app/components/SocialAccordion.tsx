@@ -18,7 +18,7 @@ export default function SocialAccordion() {
   return (
     <section className="bg-[#F4EFEA] px-8 md:px-16 py-24">
 
-      <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold text-textcolor mb-16">
+      <h2 className="text-4xl md:text-5xl lg:text-7xl font-heading text-textcolor mb-16">
         Find me on social.
       </h2>
 
@@ -68,7 +68,7 @@ export default function SocialAccordion() {
 
                 <button
                   onClick={() => setActiveIndex(null)}
-                  className="absolute top-4 right-4 bg-white/90 backdrop-blur-md p-2 rounded-full shadow-lg hover:scale-110 transition"
+                  className="absolute font-heading top-4 right-4 bg-white/90 backdrop-blur-md p-2 rounded-full shadow-lg hover:scale-110 transition"
                 >
                   <RxCross1 />
                 </button>

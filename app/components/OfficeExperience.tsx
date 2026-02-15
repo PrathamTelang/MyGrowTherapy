@@ -11,7 +11,7 @@ export default function OfficeExperience() {
         {/* TEXT */}
         <Reveal>
           <div className="max-w-3xl mb-20">
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-semibold leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-heading leading-tight">
               A Calm, Grounded Space
             </h2>
 

@@ -11,7 +11,7 @@ function Connect() {
         <div className="h-full flex flex-col">
 
      <div className="flex-1 flex flex-col  justify-center p-10 ">
-    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-textcolor">
+    <p className="text-4xl md:text-4xl lg:text-6xl xl:text-7xl font-heading text-textcolor">
       Let’s Connect
     </p>
 

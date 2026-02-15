@@ -38,7 +38,7 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/" className="leading-tight">
-          <div className="text-2xl md:text-3xl font-semibold">
+          <div className="text-2xl md:text-3xl font-heading">
             Dr. Maya .R, PsyD
           </div>
         </Link>

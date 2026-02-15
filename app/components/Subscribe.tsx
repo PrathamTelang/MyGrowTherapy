@@ -5,7 +5,7 @@ function Subscribe() {
     <section className="bg-accent py-28 text-primary">
         <div className="max-w-3xl mx-auto border border-primary rounded-lg p-16 text-center">
 
-          <h3 className="text-4xl md:text-5xl lg:text-7xl font-semibold leading-tight">
+          <h3 className="text-4xl md:text-5xl lg:text-7xl font-heading leading-tight">
             Subscribe
           </h3>
 
@@ -19,7 +19,7 @@ function Subscribe() {
               placeholder="Email Address"
               className="px-6 py-4 text-accent w-full sm:w-[350px] rounded-lg text-lg bg-primary"
             />
-            <button className="border border-white px-8 py-4 uppercase text-sm tracking-wide bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor transition-all duration-500">
+            <button className="border border-primary font-heading px-8 py-4 uppercase text-sm tracking-wide bg-accent hover:bg-primary rounded-lg text-primary hover:text-textcolor transition-all duration-500">
               Sign Up
             </button>
           </div>

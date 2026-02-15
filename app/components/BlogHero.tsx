@@ -25,7 +25,7 @@ function BlogHero() {
 
   <Reveal>
     <div className="w-full flex flex-col  justify-center py-16 px-10 sm:h-screen ">
-      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold text-textcolor">
+      <p className="text-4xl md:text-5xl lg:text-7xl xl:text-8xl  text-textcolor font-heading">
         The Maya Reynolds Journal
       </p>
 
@@ -33,7 +33,7 @@ function BlogHero() {
         Thoughtful reflections on anxiety, trauma, burnout, and the inner work of building steadier ground.
       </p>
 
-      <p className="font-bold text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
+      <p className=" text-md sm:text-xl md:text-2xl mt-6 text-textcolor">
         I’m glad you’re here.
       </p>
     </div>

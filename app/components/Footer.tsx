@@ -11,7 +11,7 @@ export default function Footer() {
 
         {/* LEFT */}
         <div className="space-y-6">
-          <h2 className="text-4xl md:text-5xl font-semibold">
+          <h2 className="text-4xl md:text-5xl font-heading">
             Dr. Maya Reynolds, PsyD
           </h2>
 

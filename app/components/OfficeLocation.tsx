@@ -9,7 +9,7 @@ export default function OfficeSection() {
         {/* LEFT SIDE */}
         <div className="space-y-12">
 
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-heading">
             My Office
           </h2>
 

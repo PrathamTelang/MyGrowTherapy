@@ -1,11 +1,16 @@
-import type { Metadata } from "next";
-import { Alegreya_Sans } from "next/font/google";
+import { Alegreya_Sans, Bellefair } from "next/font/google";
 import "./globals.css";
 
-const alegreyaSans = Alegreya_Sans({
+const alegreya = Alegreya_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
-  display: "swap",
+  variable: "--font-alegreya",
+});
+
+const bellefair = Bellefair({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-bellefair",
 });
 
 export default function RootLayout({
@@ -14,8 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${alegreyaSans.className} antialiased`}>
+    <html
+  lang="en"
+  className={`${alegreya.variable} ${bellefair.variable}`}
+>
+      <body className="antialiased">
         {children}
       </body>
     </html>
