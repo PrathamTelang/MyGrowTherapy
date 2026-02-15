@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from "motion/react";
 import { RxCross1 } from "react-icons/rx";
 
 const images = [
-  "/Live a fulfilling life.webp",
-  "/Live a fulfilling life.webp",
-  "/Live a fulfilling life.webp",
-  "/Live a fulfilling life.webp",
+  "/images/social/social1.jpg",
+  "/images/social/social2.jpg",
+  "/images/social/social3.jpg",
+  "/images/social/social4.jpg",
 ];
 
 export default function SocialAccordion() {

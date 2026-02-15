@@ -23,8 +23,8 @@ function Connect() {
  <div className='w-full flex justify-center items-center'>
      <div className="relative h-[55vh] lg:h-[55vh] w-[60%] lg:w-[35%] rounded-t-full overflow-hidden">
       <Image
-        src="/Live a fulfilling life.webp"
-        alt="Flower"
+        src="/images/hero/handshake.jpg"
+        alt="Handshake"
         fill
         className="object-cover"
       />
